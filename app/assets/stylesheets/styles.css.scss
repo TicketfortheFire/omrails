@@ -1,0 +1,38 @@
+/* You could change the font w...
+
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen); 
+
+Or the navigation bar background color or background highlight color with...
+
+$navbarBackground: white;
+$navbarBackgroundHighlight: white;
+
+more like this on... http://twitter.github.io/bootstrap/customize.html
+but using $ instead of @ for start of variables
+
+*/
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/*
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+*/
+
+.footer {
+
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
