@@ -5,13 +5,13 @@ $baseFontFamily: Oxygen;
 
 Or the navigation bar background color or background highlight color with...
 
-$navbarBackground: white;
-$navbarBackgroundHighlight: white;
-
 more like this on... http://twitter.github.io/bootstrap/customize.html
 but using $ instead of @ for start of variables
 
 */
+
+$navbarBackground: white;
+$navbarBackgroundHighlight: white;
 
 @import 'bootstrap';
 
@@ -21,12 +21,11 @@ body {
 
 @import 'bootstrap-responsive';
 
-/*
+
 .navbar-inner {
 	@include box-shadow(none !important);
-	border: 0;
-}
-*/
+	border: 0;}
+
 
 .footer {
 
@@ -36,3 +35,30 @@ body {
 		color: $gray;
 	}
 }
+
+/* Required for jQuery Masonry */
+
+.box {
+    margin: 5px;
+    padding: 5px;
+    font-size: 11px;
+    line-height: 1.4em;
+    float: left;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    width: 214px;
+}
+
+.box img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 10px 0 5px;
+}
+
