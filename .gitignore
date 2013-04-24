@@ -22,3 +22,6 @@ doc/
 
 # Ignore Paperclic uploaded files
 /public/system
+
+# Ignore sampleimages
+/sampleimages
